@@ -14,13 +14,14 @@ class Home extends Component {
         <div>
             <a id="top"></a>
             <div className="a">
-                
+                <div className="bigleft"></div>
+                <div className="bigright"><h2>Professional Resources for Church Musicians</h2></div>
             </div>
             
             
             <div className="b">
                 <div className="centertext">
-                    <h1 className="info">Information about patches and tutorials and the modern worship guitarist</h1>
+                    <h1 className="info">Take your craft to the next level with professional patches for Quad Cortex and Helix, and learn with our growing library of Worship Tutorials.</h1>
                     <hr className="binfoh"/>
                 </div>
             </div>
@@ -28,7 +29,7 @@ class Home extends Component {
 
             <div className="c">
                     <h3 className="mods">PATCHES</h3>
-                    <HashLink to="/patches"><button className="designyours btn btn-light">EXPLORE</button></HashLink>
+                    <HashLink to=""><button className="designyours btn btn-light">EXPLORE</button></HashLink>
             </div>
             <div className="d">
                     <h3 className="mods">TUTORIALS</h3>

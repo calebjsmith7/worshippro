@@ -92,7 +92,7 @@
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
-  background-image: url('./images/caleblogo-wht.png');
+  /*background-image: url('./images/caleblogo-wht.png');*/
   background-size: contain;
   background-repeat: no-repeat;
   height: 90px;
@@ -135,12 +135,11 @@
   
 }
 .a {
-  /*background-image: url(./images/calebwide.jpeg);*/
   background-image: linear-gradient(to bottom right, navy, cyan);
+  display: flex;
 }
 @media (max-width: 800px){
   .a {
-    /*background-image: url(./images/calebphototall.JPG);*/
     background-attachment: scroll;
   }
 }
@@ -163,6 +162,7 @@
 }
 .binfoh {
   border-color: #2b2b2b;
+  margin-top: 3%;
 }
 .centertext {
   height: auto;
@@ -196,13 +196,10 @@ hr {
 
 
 .c {
-  /*background-image: url(./images/newpic4.jpg);*/
-  background-color: black;
+  background-image: url(./images/wide1.jpg);
 }
 .d {
-  /*background-image: url(./images/newpic3.jpg);*/
-  background-color: gold;
-  background-position-y: 90%;
+  background-image: url(./images/wide2.jpg);
 }
 .e {
   background-color: #dbd4c5;
@@ -214,17 +211,32 @@ hr {
 @media (max-width: 800px){
   .c {
     background-attachment: scroll;
-    /*background-image: url(./images/newpic5.jpg);*/
+    background-image: url(./images/tall2.jpg);
   }
   .d {
     background-attachment: scroll;
-    /*background-image: url(./images/newpic1.jpg);*/
+    background-image: url(./images/tall1.jpg);
     background-position-y: auto;
   }
   
 }
 
 /* front titles and design now buttons */
+.bigleft {
+  width: 50%;
+  background-image: url(./images/WorshipPro-LOGO-WHITE.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 7%;
+}
+.bigright {
+  width: 45%;
+  padding-right: 10%;
+  color: white;
+  font-weight: 800;
+  font-family: 'Montserrat';
+  margin: auto;
+}
 .mods {
   color: white;
   font-size: 7vh;
@@ -369,7 +381,7 @@ hr {
 .bottomlogo {
   width: 10vw;
   height: 9vh;
-  background-image: url(./images/caleblogo-sm.png);
+  background-image: url(./images/WorshipPro-LOGO-BLACK.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -457,8 +469,7 @@ hr {
 /* Services */
 
 .sa {
-  background-color: #2b2b2b;
-  background-image: url(./images/mountain.jpg);
+  background-image: linear-gradient(to bottom right, navy, cyan);
   background-size: cover;
   background-attachment: fixed;
   background-position-y: 45%;
@@ -495,6 +506,31 @@ hr {
   height: auto;
   min-height: 90%;
   padding-top: 5%;
+}
+.saab {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: auto;
+  min-height: 90%;
+  background-color: #2b2b2b;
+  color: white;
+  font-weight: 800;
+}
+.sb1 {
+  width: 50%;
+  padding: 5%;
+  border: 1px solid white !important;
+}
+.sb2 {
+  width: 50%;
+  padding: 5%;
+}
+.est {
+  padding-top: 3%;
+}
+.servinfo {
+  font-size: 25px;
 }
 .spec {
   color: #31708E;

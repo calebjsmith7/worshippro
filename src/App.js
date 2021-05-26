@@ -4,8 +4,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Tutorials from './components/Tutorials';
-import Patches from './components/Patches';
 import Contact from './components/Contact';
+import About from './components/About';
 import Lowermenu from './components/Lowermenu';
 import $ from 'jquery';
 
@@ -22,8 +22,7 @@ class App extends Component {
             <div>
                 <Switch>
                   <Route exact path='/' component={Home} />
-                  <Route exact path='/patches' component={Patches} />
-                  <Route exact path='/tutorials' component={Tutorials} />
+                  <Route exact path='/about' component={About} />
                   <Route exact path='/contact' component={Contact} />
                 </Switch>
             </div>

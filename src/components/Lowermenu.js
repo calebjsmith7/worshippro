@@ -13,14 +13,14 @@ class Lowermenu extends Component {
         <div className="lower">
           <div className="bottomlogo"></div>
           <div className="cw">
-            <h1 className="cw">© 2021 WORSHIPPRO</h1>
+            <h1 className="cw">© 2021 WORSHIP PRO</h1>
           </div>
           <div className="bottomright">
             <ul className="bottomlinks">
               <li><Link to='/' className="fix">Home</Link></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
-              <li><Link to='/services' className="fix">Patches</Link></li>
+              <li><Link to='' className="fix">Store</Link></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
               <li><Link to='/services' className="fix">Tutorials</Link></li>
