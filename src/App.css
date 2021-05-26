@@ -537,7 +537,7 @@ hr {
 .triplebox {
   height: 330px;
   width: 385px;
-  background-color: #31708E;
+  background-color: #1d3844;
 }
 .triplebox:hover {
   width: 400px;
@@ -550,25 +550,22 @@ hr {
   }
 }
 .b1 {
-  background-image: url(./images/kenlogowht.png);
+  background-image: url();
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
-  filter: grayscale(35%);
 }
 .b2 {
-  background-image: url(./images/logo.png);
+  background-image: url();
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
-  filter: grayscale(35%);
 }
 .b3 {
-  background-image: url(./images/jfcmissions.png);
+  background-image: url();
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
-  filter: grayscale(35%);
 }
 .boxtext {
   font-size: 25px;

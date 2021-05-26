@@ -16,13 +16,13 @@ class Patches extends Component {
           
           <div className='sb'>
             <div className='boxes'>
-              <a href="https://kennedy-84a26.web.app/">
+              <a href="">
                 <div className='triplebox b1'></div>
               </a>
-              <a href="https://jubilee-3e466.web.app">
+              <a href="">
                 <div className='triplebox b2'></div>
               </a>
-              <a href="https://jfc.org/missions">
+              <a href="">
                 <div className='triplebox b3'></div>
               </a>
             </div>
