@@ -1,33 +1,576 @@
 .App {
   text-align: center;
+  font-family: 'Raleway', 'Montserrat';
+  overflow: hidden;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* navbar */
+
+.n {
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  text-align: right;
+}
+.navv {
+  background-color: none;
+  z-index: 3;
+}
+.nbg {
+  background-color: #2b2b2b5b;
+  width: 15%;
+  margin-right: 5%;
+  padding-right: 1%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-toggler {
+  margin-right: 5%; 
+}
+.navbar-toggler:focus {
+  outline: none !important;
+}
+.fa-bars {
+  color: white;
+  border: none;
+  font-size: 3.5vh;
+  height: auto;
+}
+.navbar-dark .navbar-toggler {
+  border: 0;
+}
+
+@media (max-width: 800px){
+  .nbg {
+    width: auto;
+    margin-right: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+  }
+  .navbar-toggler {
+    margin-right: 5%;
+  }
+  .fa-bars {
+    font-size: 4.5vh;
+  }
+}
+.l {
+  font-weight: bolder;
+  font-size: 20px !important;
+  font-family: 'Montserrat';
+}
+.left-box {
+  width: 40%;
+  display: flexbox;
+  text-align: left;
+  margin-left: 3%;
+}
+.left {
+  display: inline-flex;
+  margin: auto;
+  color: white;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-weight: 900;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+@media only screen and (max-width: 900px){
+  .left {
+    color: rgba(255, 255, 255, 0);
+    font-size: 1px;
+  }
+}
+.left:hover {
+  color: white;
+  text-decoration: none;
+}
+.title {
+  position: absolute !important;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px !important;
+  font-size: 23px !important;
+  text-decoration: none !important;
+  color: transparent;
+  background-image: url('./images/caleblogo-wht.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90px;
+  width: 155px;
+  text-decoration: none;
+  margin-top: .75%;
+}
+.faketitle {
+  text-decoration: none;
+  color: transparent;
+  font-size: 40px;
+}
+.title :hover {
+  color: transparent;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .title {
+    width: 30vw;
+    height: 14vh;
+    background-color: none;
+    margin-top: 0;
+    top: 13px !important;
+  }
+}
+
+  /* home page */
+
+
+
+.a,.b,.c,.d,.e,.f {
+  width: 100vw;
+  min-width: 100%;
+  height: 100vh;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+.a {
+  /*background-image: url(./images/calebwide.jpeg);*/
+  background-image: linear-gradient(to bottom right, navy, cyan);
+}
+@media (max-width: 800px){
+  .a {
+    /*background-image: url(./images/calebphototall.JPG);*/
+    background-attachment: scroll;
+  }
+}
+.b {
+  height: 70vh;
+  min-height: 70vh;
+  background-color: #ffffff;
+  overflow: hidden;
+  z-index: 5;
+  margin: auto;
+  display: block;
+}
+.info {
+  margin: auto;
+  color: #2b2b2b;
+  font-weight: 400;
+  font-size: 31px;
+  font-family: 'Montserrat';
+  width: 60%;
+}
+.binfoh {
+  border-color: #2b2b2b;
+}
+.centertext {
+  height: auto;
+  margin: auto;
+  padding: 12%;
+  margin: auto !important;
+  vertical-align: middle;
+}
+@media (max-width: 800px) {
+  .info {
+    font-size: 25px;
+    margin: auto;
+    padding: 1%;
+    padding-top: 1%;
+    width: 88%;
+  }
+  .b {
+    height: auto;
+    min-height: auto !important;
+    vertical-align: center;
+    margin-bottom: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+}
+
+hr {
+  width: 25%;
+  color: #2b2b2b;
+}
+
+
+.c {
+  /*background-image: url(./images/newpic4.jpg);*/
+  background-color: black;
+}
+.d {
+  /*background-image: url(./images/newpic3.jpg);*/
+  background-color: gold;
+  background-position-y: 90%;
+}
+
+@media (max-width: 800px){
+  .c {
+    background-attachment: scroll;
+    /*background-image: url(./images/newpic5.jpg);*/
+  }
+  .d {
+    background-attachment: scroll;
+    /*background-image: url(./images/newpic1.jpg);*/
+    background-position-y: auto;
+  }
+  
+}
+
+/* front titles and design now buttons */
+.mods {
+  color: white;
+  font-size: 7vh;
+  padding-top: 10%;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+.designyours {
+  margin-bottom: 5%;
+  margin-top: 20%;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  color: black;
+}
+
+@media (max-width: 800px){
+  .mods {
+    padding-top: 50%;
+    font-size: 5.5vh;
+  }
+
+}
+@media only screen and (max-width: 800px){
+  .designyours {
+    margin-top: 18%;
+  }
+}
+.techlogos {
+  width: 32%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: -10%;
+}
+.techlogo {
+  color: white;
+  font-size: 50px;
+  width: auto;
+  z-index: 5;
+}
+.techlogo:hover {
+  color:rgb(196, 180, 147);
+}
+#text1, #text2, #text3, #text4, #text5 {
+  display: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 800px) {
+  .techlogos {
+    width: 50%;
+  }
+}
+/* contact */
+.contact-middle {
+  color: white;
+  font-weight: 800;
+  background-color: transparent;
+  height: auto;
+  width: 50vw;
+  text-align: center;
+  padding-top: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contact {
+  color: white;
+  font-weight: 800;
+  margin: auto;
+  padding-top: 1vh;
+  background-color: transparent;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.emailus, #fname, #lname, #email, #phone, #explanation {
+  font-weight: 800;
+  color: white;
+}
+#fname, #lname, #email, #phone, #explanation {
+  color: black;
+  height: 7vh;
+}
+.contactpage {
+  background-image: linear-gradient(to bottom right, navy, cyan);
+  height: auto;
+  padding-bottom: 3%;
+}
+.allcontact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 11vh;
+  
+}
+@media (max-width: 800px) {
+  .allcontact {
+    flex-direction: column;
+
   }
-  to {
-    transform: rotate(360deg);
+  .contact-middle {
+    width: 80vw;
+    order: 1;
+    padding-bottom: 5%;
+    margin: auto;
+  }
+  .contact {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .contactpage {
+    padding-bottom: 8%;
   }
 }
+.cq {
+  font-size: 22px;
+}
+.cinfo {
+  font-size: 20px;
+  color: white;
+}
+.hrs {
+  font-size: 16px;
+  color: grey;
+}
+/* Lower Nav */
+.lower {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 20vh;
+}
+.bottomlogo {
+  width: 10vw;
+  height: 9vh;
+  background-image: url(./images/caleblogo-sm.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  margin-left: 3%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.cw {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 12px;
+  font-weight: 800;
+}
+.bottomright {
+  width: 75vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 50%;
+}
+.bottomlinks {
+  display: flex;
+  font-size: 11px;
+  font-weight: 800;
+  list-style-type: none;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.horizsep {
+  display: none;
+}
+@media (max-width: 800px){
+  .bottomlogo {
+    width: 25vw;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+  .lower {
+    height: auto;
+    flex-direction: column;
+    padding: 5%;
+    padding-bottom: 10%;
+  }
+  .cw {
+    font-size: 1.8vw;
+    order: 2;
+    width: 95%;
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  .bottomright {
+    width: 60vw;
+    margin: auto;
+    margin-left: -8%;
+    padding-left: 0;
+    text-align: left;
+    order: 1;
+    flex-direction: column;
+  }
+  .bottomlinks {
+    font-size: 2.3vw;
+    flex-direction: column;
+  }
+  .vertsep {
+    display: none;
+  }
+  .horizsep {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+  }
+}
+
+.fix {
+  text-decoration: none;
+  color: black;
+}
+.fix:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* Services */
+
+.sa {
+  background-color: #2b2b2b;
+  background-image: url(./images/mountain.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 45%;
+  width: 100vw;
+  height: 50vh;
+}
+.satext {
+  color: white;
+  font-size: 70px;
+  padding-top: 10%;
+  font-weight: 400;
+  font-family: 'Montserrat';
+}
+
+@media (max-width: 800px){
+  
+  .sa {
+    height: 50vh;
+    background-position-y: auto;
+    background-attachment: scroll;
+  }
+  .satext {
+    font-size: 50px;
+    padding-top: 30%;
+  }
+}
+.sb {
+  background: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  min-width: 100%;
+  height: auto;
+  min-height: 90%;
+  padding-top: 5%;
+}
+.spec {
+  color: #31708E;
+  font-size: 7vh;
+  padding-top: 2%;
+  text-align: left;
+  padding-left: 5%;
+  font-family: 'Montserrat';
+}
+.boxes {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4%;
+  padding-bottom: 20%;
+  padding-top: 10%;
+}
+@media (max-width: 800px) {
+  .boxes {
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-bottom: 10%;
+  }
+  .sb {
+    height: 190vh;
+  }
+  .triplebox, .b2, .b3 {
+    margin-top: 15%;
+  }
+  .b1 {
+    margin-top: 5%;
+  }
+  .spec {
+    text-align: center;
+  }
+}
+.triplebox {
+  height: 330px;
+  width: 385px;
+  background-color: #31708E;
+}
+.triplebox:hover {
+  width: 400px;
+  height: 350px;
+}
+@media (max-width: 800px){
+  .triplebox {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+.b1 {
+  background-image: url(./images/kenlogowht.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(35%);
+}
+.b2 {
+  background-image: url(./images/logo.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(35%);
+}
+.b3 {
+  background-image: url(./images/jfcmissions.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(35%);
+}
+.boxtext {
+  font-size: 25px;
+  margin-top: 350px;
+}
+@media (max-width: 800px){
+  .boxtext {
+    font-size: 22px;
+    margin-top: 55vh;
+  }
+ 
+}
+
