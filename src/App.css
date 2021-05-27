@@ -520,11 +520,15 @@ hr {
 .sb1 {
   width: 50%;
   padding: 5%;
-  border: 1px solid white !important;
+  background-image: url(./images/donnypic.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 40%;
 }
 .sb2 {
   width: 50%;
   padding: 5%;
+  font-family: 'Montserrat';
 }
 .est {
   padding-top: 3%;

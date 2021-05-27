@@ -15,7 +15,6 @@ class About extends Component {
           </div>
           <div className='saab'>
           <div className='sb1'>
-            donny picture here
             </div>
             <div className='sb2'>
             <h1 className='est'>Donny Camp</h1>
