@@ -29,11 +29,11 @@ class Home extends Component {
 
             <div className="c">
                     <h3 className="mods">PATCHES</h3>
-                    <HashLink to=""><button className="designyours btn btn-light">EXPLORE</button></HashLink>
+                    <a href="https://neuraldsp.com/cloud/u/DonnyCamp"><button className="designyours btn btn-light">EXPLORE</button></a>
             </div>
             <div className="d">
                     <h3 className="mods">TUTORIALS</h3>
-                    <HashLink to="/tutorials"><button className="designyours btn btn-light">EXPLORE</button></HashLink>
+                    <a href="https://www.youtube.com/channel/UCw-qXpxPMhSV3h5EqQusolA"><button className="designyours btn btn-light">EXPLORE</button></a>
             </div>
 
             <div className="e">

@@ -40,8 +40,8 @@ function handleCollapse() {
             <ul className="navbar-nav ml-auto n nbg">
                 <li className="nav-item active"><HashLink to='/#top' className="nav-link l" onClick={handleCollapse}>HOME <span className="sr-only">(current)</span></HashLink></li>
                 <li className="nav-item active"><HashLink to='/about#top' className="nav-link l" onClick={handleCollapse}>ABOUT</HashLink></li>
-                <li className="nav-item active"><HashLink to='' className="nav-link l" onClick={handleCollapse}>STORE</HashLink></li>
-                <li className="nav-item active"><HashLink to='/tutorials#top' className="nav-link l" onClick={handleCollapse}>TUTORIALS</HashLink></li>
+                <li className="nav-item active"><a href='https://neuraldsp.com/cloud/u/DonnyCamp' className="nav-link l" onClick={handleCollapse}>STORE</a></li>
+                <li className="nav-item active"><a href='https://www.youtube.com/channel/UCw-qXpxPMhSV3h5EqQusolA' className="nav-link l" onClick={handleCollapse}>TUTORIALS</a></li>
                 <li className="nav-item active"><Link to='/contact' className="nav-link l" onClick={handleCollapse}>CONTACT</Link></li>
             </ul>
         </div>

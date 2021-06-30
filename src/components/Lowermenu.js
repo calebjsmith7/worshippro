@@ -13,20 +13,20 @@ class Lowermenu extends Component {
         <div className="lower">
           <div className="bottomlogo"></div>
           <div className="cw">
-            <h1 className="cw">© 2021 WORSHIP PRO</h1>
+            <h1 className="cw">© 2021 WORSHIP PRO. All Rights Reserved.</h1>
           </div>
           <div className="bottomright">
             <ul className="bottomlinks">
-              <li><Link to='/' className="fix">Home</Link></li>
+              <li><HashLink to='/#top' className="fix">Home</HashLink></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
-              <li><Link to='' className="fix">Store</Link></li>
+              <li><a href='https://neuraldsp.com/cloud/u/DonnyCamp' className="fix">Store</a></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
-              <li><Link to='/services' className="fix">Tutorials</Link></li>
+              <li><a href='https://www.youtube.com/channel/UCw-qXpxPMhSV3h5EqQusolA' className="fix">Tutorials</a></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
-              <li><Link to='/contact' className="fix">Contact</Link></li>
+              <li><HashLink to='/contact#top' className="fix">Contact</HashLink></li>
             </ul>
           </div>
         </div>
